@@ -1,0 +1,8 @@
+---
+- hosts: all
+  #roles:
+  #  - ubuntu-18.04-cis-benchmark-for-ansible
+  tasks:
+  - name: simple echo
+    shell:
+      cmd: 'echo "just echo"' 
